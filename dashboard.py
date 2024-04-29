@@ -131,15 +131,15 @@ if option == 'All India':
         # All India Total Transaction calculation Table
         st.header(':violet[Total calculation]')
 
-        col4, col5 = st.columns(2)
-        with col4:
-            st.subheader('Transaction Analysis')
-            st.dataframe(df_in_tr_anly_tab_qry_rslt1)
-        with col5:
-            st.subheader('Transaction Amount')
-            st.dataframe(df_in_tr_am_qry_rslt1)
-            st.subheader('Transaction Count')
-            st.dataframe(df_in_tr_co_qry_rslt1)
+        st.subheader('Transaction Analysis')
+        st.dataframe(df_in_tr_anly_tab_qry_rslt1)
+
+        st.subheader('Transaction Amount')
+        st.dataframe(df_in_tr_am_qry_rslt1)
+
+        st.subheader('Transaction Count')
+        st.dataframe(df_in_tr_co_qry_rslt1)
+
 
     # All India User
     with tab2:
@@ -213,13 +213,11 @@ if option == 'All India':
         # All India Total User calculation Table
         st.header(':violet[Total calculation]')
 
-        col3, col4 = st.columns(2)
-        with col3:
-            st.subheader('User Analysis')
-            st.dataframe(df_in_us_tab_qry_rslt1)
-        with col4:
-            st.subheader('User Count')
-            st.dataframe(df_in_us_co_qry_rslt1)
+        st.subheader('User Analysis')
+        st.dataframe(df_in_us_tab_qry_rslt1)
+
+        st.subheader('User Count')
+        st.dataframe(df_in_us_co_qry_rslt1)
 
 # State wise
 elif option == 'State wise':
@@ -300,15 +298,14 @@ elif option == 'State wise':
         # State wise Total Transaction calculation Table
         st.header(':violet[Total calculation]')
 
-        col4, col5 = st.columns(2)
-        with col4:
-            st.subheader('Transaction Analysis')
-            st.dataframe(df_st_tr_anly_tab_qry_rslt1)
-        with col5:
-            st.subheader('Transaction Amount')
-            st.dataframe(df_st_tr_am_qry_rslt1)
-            st.subheader('Transaction Count')
-            st.dataframe(df_st_tr_co_qry_rslt1)
+        st.subheader('Transaction Analysis')
+        st.dataframe(df_st_tr_anly_tab_qry_rslt1)
+
+        st.subheader('Transaction Amount')
+        st.dataframe(df_st_tr_am_qry_rslt1)
+
+        st.subheader('Transaction Count')
+        st.dataframe(df_st_tr_co_qry_rslt1)
 
     # State wise User
     with tab4:
@@ -357,13 +354,11 @@ elif option == 'State wise':
         # State wise User Total User calculation Table
         st.header(':violet[Total calculation]')
 
-        col3, col4 = st.columns(2)
-        with col3:
-            st.subheader('User Analysis')
-            st.dataframe(df_st_us_tab_qry_rslt1)
-        with col4:
-            st.subheader('User Count')
-            st.dataframe(df_st_us_co_qry_rslt1)
+        st.subheader('User Analysis')
+        st.dataframe(df_st_us_tab_qry_rslt1)
+
+        st.subheader('User Count')
+        st.dataframe(df_st_us_co_qry_rslt1)
 
 # Top categories
 else:
