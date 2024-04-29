@@ -15,9 +15,11 @@ cursor = conn.cursor()
 st.set_page_config(layout='wide')
 
 # Title
-st.header(':violet[Phonepe Pulse Data Visualization]')
-st.write('**Note**:-This data between **2018** to **2023** in **INDIA**')
+st.markdown("<h1 style='text-align: center; color: #8a32fc;'>Phonepe Pulse Data Visualization</h1>", unsafe_allow_html=True)
 st.markdown("\n\n")
+st.markdown("\n\n")
+
+st.write('**Note**:- This data between **2018** to **2023** in **INDIA**')
 
 # Clone the latest data
 st.write('Click the below button to pull the latest data.')
