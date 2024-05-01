@@ -6,7 +6,7 @@ Developed a Streamlit application for analyzing transactions and user data from 
 # Libraries
 - Git
 - Pandas
-- PostgreSQL
+- MYSQL
 - Streamlit
 - Plotly
 
